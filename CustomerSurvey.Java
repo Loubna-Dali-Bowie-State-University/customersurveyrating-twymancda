@@ -5,8 +5,13 @@ public class CustomerSurvey {
         Scanner scanner = new Scanner(System.in);
 
         // TODO: Declare necessary variables (e.g., to hold rating counts, total number of ratings, sum, etc.)
-        // TODO: Declare a flag for detecting if any 5-star rating was entered
+        int rating = 0; 
+        int totalRatings = 0; 
+        int sumRatings = 0; 
+        int count1 = 0, count2 = 0, count3 = 0, count4 = 0, count5 = 0;
 
+        // TODO: Declare a flag for detecting if any 5-star rating was entered
+        boolean excellentRatingReceived = false
         System.out.println("Welcome to Customer Survey! Enter ratings from 1 to 5 (enter -1 to stop):");
 
         // Sentinel-Controlled Loop to collect customer ratings
